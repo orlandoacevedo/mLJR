@@ -1,12 +1,6 @@
 ### Modified Lydersen-Joback-Reid Method
 
-*Critical Properties Calculation either for purity or binary mixture*
-
-
-#### Reference:
-    Paper 1:  Nouman Rafique Mirza, et al., J. Chem. Eng. Data 2015, 60, 1844−1854
-    Paper 2:  Jose´ O. Valderrama, et al., Ind. Eng. Chem. Res., Vol. 47, No.4, 2008
-
+*This program calculates critical temperatures necessary to estimate surface tensions of either pure solvents or binary mixtures at elevated temperatures using a modified Lydersen-Joback-Reid Method.*
 
 #### Download
 ```
@@ -124,9 +118,21 @@ mark : no-ring-2
 **For more information**
 ```mljr -e```
 
+#### References
+
+Zhong, X.; Velez, C.; Acevedo, O. "Partial Charges Optimized by Genetic Algorithms for Deep Eutectic Solvent Simulations." **2021** (in preparation for submission).
+
+Mirza, N.R.; Nicholas, N.J; Wu, Y.; Kentish, S.; Stevens, G.W. "Estimation of Normal Boiling Temperatures, Critical Properties, and Acentric Factors of Deep Eutectic Solvents." *J. Chem. Eng. Data* **2015**, *60*, 1844−1854. [Link](https://pubs.acs.org/doi/abs/10.1021/acs.jced.5b00046)
+
+Valderrama, J.O.; Reátegui, A.; Sanga, W.W. "Thermodynamic Consistency Test of Vapor−Liquid Equilibrium Data for Mixtures Containing Ionic Liquids." *Ind. Eng. Chem. Res.*, **2008**, *47*, 8416-8422. [Link](https://pubs.acs.org/doi/10.1021/ie800763x)
 
 #### About
+**Contributing Authors**: Xiang Zhong and Orlando Acevedo*
 
-**Software License**
-Copyright (C) 2020  Orlando Acevedo
-[Orlando Acevedo](http://www.acevedoresearch.com), University of Miami
+**Funding**: Gratitude is expressed to the National Science Foundation for funding the project.
+
+**Software License**:
+mLJR.
+Copyright (C) 2021 Xiang Zhong and [Orlando Acevedo](http://www.acevedoresearch.com), University of Miami
+
+
