@@ -9,8 +9,8 @@ __version__ = 0.50
 # Modified Lydersen-Joback-Reid method
 #
 # Reference:
-#    Paper 1:  Nouman Rafique Mirza, et al., J. Chem. Eng. Data 2015, 60, 1844-1854
-#    Paper 2:  Jose O. Valderrama, et al., Ind. Eng. Chem. Res., Vol. 47, No.4, 2008
+#    Paper 1:  Mirza et al. J. Chem. Eng. Data 2015, 60, 1844−1854.
+#    Paper 2:  Valderrama et al. Ind. Eng. Chem. Res., 2008, 47, 8416-8422.
 
 
 # data in an array
