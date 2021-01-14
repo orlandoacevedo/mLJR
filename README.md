@@ -2,6 +2,10 @@
 
 *Critical Properties Calculation either for purity or binary mixture*
 
+Please cite our paper;
+
+    Zhong, X.; Velez, C.; Acevedo, O. "Partial Charges Optimized by Genetic Algorithms for Deep Eutectic Solvent Simulations." 2021 (under review).
+
 
 #### Reference:
     Paper 1:  Nouman Rafique Mirza, et al., J. Chem. Eng. Data 2015, 60, 1844−1854
@@ -66,8 +70,11 @@ Optional arguments:
 Free formats. Char < **#** > is used for comments
 
 Note: keyword < name > will be ignored
+
 Note: keyword < M > is precendent of < S >, they both are used to get molecular weight
+
 Note: keyword < S > structrue in a format: (atomType & number) separated by "-" OR blank space 
+
 Note: Case-insensitive, number of "-" or spaces or quotes does not matter
 
 -    Example 1:   C2H3O4N5
@@ -123,6 +130,11 @@ mark : no-ring-2
 
 **For more information**
 ```mljr -e```
+
+
+OR,
+
+Please have a look on folder `samples`.
 
 
 #### About

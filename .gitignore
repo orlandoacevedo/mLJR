@@ -2,4 +2,6 @@
 build/
 dist/
 mljr.egg-info
+__pycache__
+
 
