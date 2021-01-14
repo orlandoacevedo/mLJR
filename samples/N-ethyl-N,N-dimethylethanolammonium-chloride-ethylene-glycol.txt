@@ -1,0 +1,72 @@
+# mLJR, v. 0.5, Xiang Zhong and Orlando Acevedo, University of Miami, 2021
+# Please cite our paper
+# Zhong, X.; Velez, C.; Acevedo, O. "Partial Charges Optimized by Genetic Algorithms for Deep Eutectic Solvent Simulations." 2021 (under review).
+
+
+
+type : mixture
+
+name : N-ethyl-N,N-dimethylethanolammonium Chloride Ethylene Glycol
+
+ratio : 1:3
+
+m1 :
+
+s1 : C6H16NO Cl 
+
+m2 :
+
+s2 : C2H6O2
+
+t-ref : 298.15
+
+q-ref : 47.51
+
+t : 373.15
+
+mark : no-ring-1
+
+    -CH3   :   3
+    -CH2-  :   3
+    >N-    :   1
+    -OH    :   1
+    -Cl    :   1
+
+mark : no-ring-2
+    -CH2-  :   2
+    -OH    :   2
+
+
+
+# For calculation type < mixture >
+# Molar ratio: ( m1 : m2 ) = < 0.25 : 0.75 >
+# Total Molecular weight:   m = < 84.963 >
+
+
+# Molecular weight                 m1  = < 153.648 >
+# Molar ratio:                     y1  = < 0.25 >
+# Critical temperature (K):        Tc1 = < 645.8639 >
+# Critical pressure (bar):         Pc1 = < 27.7136 >
+# Critical molar volume (mL/mol):  Vc1 = < 497.69 >
+# Boiling temperature (K):         Tb1 = < 480.33 >
+# Acentric factor:                 w1  = < 0.8052 >
+
+# Molecular weight                 m2  = < 62.068 >
+# Molar ratio:                     y2  = < 0.75 >
+# Critical temperature (K):        Tc2 = < 598.7314 >
+# Critical pressure (bar):         Pc2 = < 67.5027 >
+# Critical molar volume (mL/mol):  Vc2 = < 181.77 >
+# Boiling temperature (K):         Tb2 = < 429.72 >
+# Acentric factor:                 w2  = < 0.999 >
+
+
+# Mixing Critical temperature (K):        Tcm = < 605.153 >
+# Mixing Critical pressure (bar):         Pcm = < 41.5041 >
+# Mixing Critical molar volume (mL/mol):  Vcm = < 250.9884 >
+# Mixing Boiling temperature (K):         Tbm = < 442.3725 >
+# Mixing Acentric factor:                 wm  = < 0.9818 >
+
+# Density   at  373.15 K (g/mL):    d = < 1.0194 >
+# Surf. Ten. at 373.15 K (mN/m):   st = < 33.7367 >
+# Reference: Temp. < 298.15 >, Surface Tension: < 47.51 >
+
