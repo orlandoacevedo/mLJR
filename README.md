@@ -60,8 +60,11 @@ Optional arguments:
 Free formats. Char < **#** > is used for comments
 
 Note: keyword < name > will be ignored
+
 Note: keyword < M > is precendent of < S >, they both are used to get molecular weight
+
 Note: keyword < S > structrue in a format: (atomType & number) separated by "-" OR blank space 
+
 Note: Case-insensitive, number of "-" or spaces or quotes does not matter
 
 -    Example 1:   C2H3O4N5
