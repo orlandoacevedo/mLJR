@@ -20,7 +20,7 @@ Then command `mljr` will be ready to use.
 
 For example, we have some molecules;
 
-![mljr-samples](mljr-samples.jpg)
+![mljr-samples](mljr-samples.png)
 
 
 ## First, generate template setting file
