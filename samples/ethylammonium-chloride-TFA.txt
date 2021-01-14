@@ -1,0 +1,76 @@
+# mLJR, v. 0.5, Xiang Zhong and Orlando Acevedo, University of Miami, 2021
+# Please cite our paper
+# Zhong, X.; Velez, C.; Acevedo, O. "Partial Charges Optimized by Genetic Algorithms for Deep Eutectic Solvent Simulations." 2021 (under review).
+
+
+
+type : mixture
+
+name : Ethylammonium Chloride TFA
+
+ratio : 1:1.5
+
+m1 :
+
+s1 : C2H8N Cl
+
+m2 : 
+
+s2 : C2H2F3NO
+
+t-ref : 313.15
+
+q-ref : 30.1
+
+t : 373.15
+
+mark : no-ring-1
+
+    -CH3  :  1
+    -CH2- :  1
+    >N-   :  1
+    -Cl   :  1
+
+
+
+mark : no-ring-2
+
+    -NH2  :  1
+    >C=O  :  1
+    >C<   :  1
+    -F    :  3
+
+
+
+# For calculation type < mixture >
+# Molar ratio: ( m1 : m2 ) = < 0.4 : 0.6 >
+# Total Molecular weight:   m = < 100.4452 >
+
+
+# Molecular weight                 m1  = < 81.544 >
+# Molar ratio:                     y1  = < 0.4 >
+# Critical temperature (K):        Tc1 = < 469.827 >
+# Critical pressure (bar):         Pc1 = < 58.4546 >
+# Critical molar volume (mL/mol):  Vc1 = < 219.45 >
+# Boiling temperature (K):         Tb1 = < 294.53 >
+# Acentric factor:                 w1  = < 0.2499 >
+
+# Molecular weight                 m2  = < 113.046 >
+# Molar ratio:                     y2  = < 0.6 >
+# Critical temperature (K):        Tc2 = < 575.017 >
+# Critical pressure (bar):         Pc2 = < 44.8229 >
+# Critical molar volume (mL/mol):  Vc2 = < 241.8 >
+# Boiling temperature (K):         Tb2 = < 384.49 >
+# Acentric factor:                 w2  = < 0.4203 >
+
+
+# Mixing Critical temperature (K):        Tcm = < 531.9193 >
+# Mixing Critical pressure (bar):         Pcm = < 49.5179 >
+# Mixing Critical molar volume (mL/mol):  Vcm = < 232.7733 >
+# Mixing Boiling temperature (K):         Tbm = < 348.506 >
+# Mixing Acentric factor:                 wm  = < 0.3513 >
+
+# Density   at  373.15 K (g/mL):    d = < 1.118 >
+# Surf. Ten. at 373.15 K (mN/m):   st = < 20.3427 >
+# Reference: Temp. < 313.15 >, Surface Tension: < 30.1 >
+

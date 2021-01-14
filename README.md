@@ -118,6 +118,10 @@ mark : no-ring-2
 **For more information**
 ```mljr -e```
 
+OR,
+
+Please have a look on `samples` folder
+
 #### References
 
 Zhong, X.; Velez, C.; Acevedo, O. "Partial Charges Optimized by Genetic Algorithms for Deep Eutectic Solvent Simulations." **2021** (in preparation for submission).
