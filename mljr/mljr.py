@@ -4,7 +4,7 @@ import os
 import math
 import argparse
 
-__version__ = 0.50
+__version__ = 0.51
 
 # Modified Lydersen-Joback-Reid method
 #
