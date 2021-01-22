@@ -1,15 +1,33 @@
 #!/usr/bin/env python3
 # -*- encoding: utf-8 -*-
 
+import os
 from setuptools import setup
 import mljr
 from mljr.mljr import __version__
 
 
+def read(*names):
+    values = {}
+    extensions = ['', '.txt', '.rst', '.md',]
+    for name in names:
+        v = ''
+        for ext in extensions:
+            filename = name + ext
+            if os.path.isfile(filename):
+                with open(filename) as f:
+                    v = f.read()
+        values[name] = v
+    return values
+
+long_description = """%(README)s""" % read('README')
+
 setup(
     name='mljr',
     version=__version__,
     description='Modified Lydersen-Joback-Reid method',
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     classifiers=[
         "Programming Language :: Python :: 3",
         "Environment :: Console",

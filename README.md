@@ -14,6 +14,10 @@ Download zip file
 
 #### Installation
 ```
+pip install mljr
+
+Or
+
 python[3] setup.py install
 ```
 
