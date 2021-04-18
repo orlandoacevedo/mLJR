@@ -131,7 +131,7 @@ Please have a look on `samples` folder
 
 #### References
 
-Zhong, X.; Velez, C.; Acevedo, O. "Partial Charges Optimized by Genetic Algorithms for Deep Eutectic Solvent Simulations." **2021** (in preparation for submission).
+Zhong, X.; Velez, C.; Acevedo, O. "Partial Charges Optimized by Genetic Algorithms for Deep Eutectic Solvent Simulations" *J. Chem. Theory Comput.*, **2021**, *17*, (in press). [doi:10.1021/acs.jctc.1c00047](http://pubs.acs.org/doi/abs/10.1021/acs.jctc.1c00047)
 
 Mirza, N.R.; Nicholas, N.J; Wu, Y.; Kentish, S.; Stevens, G.W. "Estimation of Normal Boiling Temperatures, Critical Properties, and Acentric Factors of Deep Eutectic Solvents." *J. Chem. Eng. Data* **2015**, *60*, 1844−1854. [Link](https://pubs.acs.org/doi/abs/10.1021/acs.jced.5b00046)
 
@@ -140,7 +140,7 @@ Valderrama, J.O.; Reátegui, A.; Sanga, W.W. "Thermodynamic Consistency Test of 
 #### About
 **Contributing Authors**: Xiang Zhong and Orlando Acevedo*
 
-**Funding**: Gratitude is expressed to the National Science Foundation for funding the project.
+**Funding**: Gratitude is expressed to the National Science Foundation (CHE-1562205) for funding this project.
 
 **Software License**:
 mLJR.
